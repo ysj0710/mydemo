@@ -1,14 +1,298 @@
-{
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
-}
+classification: [
+    {
+      id: 1,
+      title: '分类任务&1',
+      color: 'blue',
+      date: '2025-03-27 18:11:55',
+      models: [
+        { name: 'XGBoost-453417', auc: 0.95 },
+        { name: 'SVM-453419', auc: 1.00 }
+      ],
+      details: [
+        {
+          name: 'XGBoost-453417',
+          status: 'green',
+          statusText: '成功',
+          dataset: {
+            training: 291,
+            validation: 125,
+            test: 0,
+            method: '随机拆分(训练/验证)'
+          },
+          features: {
+            clinical: 18,
+            omics: 0,
+            dependent: '因变量,2分类'
+          },
+          analysis: {
+            algorithm: 'XGBoost',
+            correlation: 0.9,
+            selection: 'L1 Based, C=1.0000'
+          },
+          result:  {
+                    training: {
+                      ACC: '0.7388',
+                      AUC: '0.9865'
+                    },
+                    validation: {
+                      ACC: '0.744',
+                      AUC: '0.9513'
+                    },
+                    test: {
+                      ACC: undefined,
+                      AUC: undefined
+                    }
+                   },
+        },
+        {
+          name: 'SVM-453419',
+          status: 'green',
+          statusText: '成功',
+          dataset: {
+            training: 291,
+            validation: 125,
+            test: 0,
+            method: '随机拆分(训练/验证)'
+          },
+          features: {
+            clinical: 18,
+            omics: 0,
+            dependent: '因变量,2分类'
+          },
+          analysis: {
+            algorithm: 'SVM',
+            correlation: 0.9,
+            selection: 'L1 Based, C=1.0000'
+          },
+          result:  {
+                    training: {
+                      ACC: '0.9691',
+                      AUC: '0.9996'
+                    },
+                    validation: {
+                      ACC: '0.952',
+                      AUC: '0.9993'
+                    },
+                    test: {
+                      ACC: undefined,
+                      AUC: undefined
+                    }
+                  }
+        }
+      ]
+    },
+    {
+      id: 2,
+      title: '分类任务&2',
+      color: 'blue',
+      date: '2025-03-27 18:11:55',
+      models: [
+        { name: 'XGBoost-422227', auc: 0.95 },
+        { name: 'SVM-457749', auc: 1.00 }
+      ],
+      details: [
+        {
+          name: 'XGBoost-422227',
+          status: 'green',
+          statusText: '成功',
+          dataset: {
+            training: 291,
+            validation: 125,
+            test: 0,
+            method: '随机拆分(训练/验证)'
+          },
+          features: {
+            clinical: 18,
+            omics: 0,
+            dependent: '因变量,2分类'
+          },
+          analysis: {
+            algorithm: 'XGBoost',
+            correlation: 0.9,
+            selection: 'L1 Based, C=1.0000'
+          },
+          result:  {
+                    training: {
+                      ACC: '0.7388',
+                      AUC: '0.9865'
+                    },
+                    validation: {
+                      ACC: '0.744',
+                      AUC: '0.9513'
+                    },
+                    test: {
+                      ACC: undefined,
+                      AUC: undefined
+                    }
+                   },
+        },
+        {
+          name: 'SVM-457749',
+          status: 'green',
+          statusText: '成功',
+          dataset: {
+            training: 291,
+            validation: 125,
+            test: 0,
+            method: '随机拆分(训练/验证)'
+          },
+          features: {
+            clinical: 18,
+            omics: 0,
+            dependent: '因变量,2分类'
+          },
+          analysis: {
+            algorithm: 'SVM',
+            correlation: 0.9,
+            selection: 'L1 Based, C=1.0000'
+          },
+          result:  {
+                    training: {
+                      ACC: '0.9691',
+                      AUC: '0.9996'
+                    },
+                    validation: {
+                      ACC: '0.952',
+                      AUC: '0.9993'
+                    },
+                    test: {
+                      ACC: undefined,
+                      AUC: undefined
+                    }
+                  }
+        }
+      ]
+    },
+    {
+      id: 3,
+      title: '分类任务&3',
+      color: 'blue',
+      date: '2025-03-27 18:11:55',
+      models: [
+        { name: 'XGBoost-411117', auc: 0.95 },
+        { name: 'SVM-247749', auc: 1.00 }
+      ],
+      details: [
+        {
+          name: 'XGBoost-411117',
+          status: 'green',
+          statusText: '成功',
+          dataset: {
+            training: 291,
+            validation: 125,
+            test: 0,
+            method: '随机拆分(训练/验证)'
+          },
+特点:{
+            clinical: 18,
+            omics: 0,
+            dependent: '因变量,2分类'
+          },
+分析:{
+            algorithm: 'XGBoost',
+            correlation: 0.9,
+            selection: 'L1 Based, C=1.0000'
+          },
+          result:  {
+                    training: {
+                      ACC: '0.7388',
+                      AUC: '0.9865'
+                    },
+                    validation: {
+                      ACC: '0.744',
+                      AUC: '0.9513'
+                    },
+                    test: {
+                      ACC: undefined,
+                      AUC: undefined
+                    }
+                   },
+        },
+        {
+名称:“svm - 247749”,
+          status: 'green',
+          statusText: '成功',
+数据集:{
+培训要求:291年,
+验证:125
+测试:0,
+            method: '随机拆分(训练/验证)'
+          },
+特点:{
+临床:18,
+组学:0,
+            dependent: '因变量,2分类'
+          },
+分析:{
+算法:“支持向量机”,
+相关性:0.9,
+选择：“基于L1， C=1.0000”
+          },
+结果:{
+培训:{
+ACC:“0.9691”,
+AUC:“0.9996”
+                    },
+验证:{
+ACC:“0.952”,
+AUC:“0.9993”
+                    },
+测试:{
+ACC:未定义的,
+AUC:未定义的
+AUC:未定义的
+                  }
+        }
+      ]
+    },    
+    {
+id: 5
+    title: "分类任务&5",
+颜色:“蓝色”,
+颜色:蓝色,
+日期：2025-03-27 18:11:55
+模型:(
+{name: 'XGBoost-411117', auc: 0.95}，
+“auc”:0.9850
+      }
+细节:[
+细节:[
+名称:“xgboost - 411117”,
+状态:“绿色”,
+状态:“绿色”,
+数据集:{
+培训要求:291年,
+验证:125
+测试:0,
+测试:未定义的,
+                  method: "5折交叉验证"
+特点:{
+临床:18,
+组学:0,
+组学:0,
+                    dependent: "因变量,2分类"
+分析:{
+算法:“XGBoost”,
+相关性:0.9,
+选择：“基于L1， C=1.0000”
+选择：“基于L1， C=1.0000”
+结果:{
+培训:{
+ACC:“0.7388”,
+AUC:“0.9865”
+Auc：“0.9992（1.00 - 1）”
+验证:{
+ACC:“0.744”,
+AUC:“0.9513”
+Auc: “ 0.9850(0.97 - 1) ”
+测试:{
+ACC:未定义的,
+AUC:未定义的
+AUC:未定义的
+                  }
+                }
+              }
+名称:“svm - 247749”,
+    
+    }   
+    ],
