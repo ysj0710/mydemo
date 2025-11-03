@@ -1,62 +1,62 @@
-classification: [
+分类:[
     {
-      id: 1,
+id: 1、
       title: '分类任务&1',
-      color: 'blue',
-      date: '2025-03-27 18:11:55',
-      models: [
-        { name: 'XGBoost-453417', auc: 0.95 },
+颜色:蓝色,
+日期：2025-03-27 18:11:55
+模型:(
+{name: 'XGBoost-453417', auc: 0.95}，
         { name: 'SVM-453419', auc: 1.00 }
       ],
-      details: [
+细节:[
         {
-          name: 'XGBoost-453417',
-          status: 'green',
+名称:“xgboost - 453417”,
+状态:“绿色”,
           statusText: '成功',
-          dataset: {
-            training: 291,
-            validation: 125,
-            test: 0,
+数据集:{
+培训要求:291年,
+验证:125
+测试:0,
             method: '随机拆分(训练/验证)'
           },
-          features: {
-            clinical: 18,
-            omics: 0,
+特点:{
+临床:18,
+组学:0,
             dependent: '因变量,2分类'
           },
-          analysis: {
-            algorithm: 'XGBoost',
-            correlation: 0.9,
-            selection: 'L1 Based, C=1.0000'
+分析:{
+算法:“XGBoost”,
+相关性:0.9,
+选择：“基于L1， C=1.0000”
           },
-          result:  {
-                    training: {
-                      ACC: '0.7388',
-                      AUC: '0.9865'
+结果:{
+培训:{
+ACC:“0.7388”,
+AUC:“0.9865”
                     },
-                    validation: {
-                      ACC: '0.744',
-                      AUC: '0.9513'
+验证:{
+ACC:“0.744”,
+AUC:“0.9513”
                     },
-                    test: {
-                      ACC: undefined,
-                      AUC: undefined
+测试:{
+ACC:未定义的,
+AUC:未定义的
                     }
                    },
         },
         {
-          name: 'SVM-453419',
-          status: 'green',
+名称:“svm - 453419”,
+状态:“绿色”,
           statusText: '成功',
-          dataset: {
-            training: 291,
-            validation: 125,
-            test: 0,
+数据集:{
+培训要求:291年,
+验证:125
+测试:0,
             method: '随机拆分(训练/验证)'
           },
-          features: {
-            clinical: 18,
-            omics: 0,
+特点:{
+临床:18,
+组学:0,
             dependent: '因变量,2分类'
           },
           analysis: {
